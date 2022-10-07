@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="49.921">
-    <testcase classname="F06_homeSliders | users could select Nokia slider once iphone slider once" name="users could select Nokia slider" time="32.878">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="33.404">
+    <testcase classname="F06_homeSliders | users could select Nokia slider once iphone slider once" name="users could select Nokia slider" time="18.122">
         <failure message="The following asserts failed:&#10;&#9;Test Failed due to an exception occurred in POM's method While assert page url for nokia page. expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError">
             <![CDATA[When user could select Nokia slider.........................................passed
 Then user navigated to Nokia page successfully..............................failed
@@ -11,11 +11,11 @@ java.lang.AssertionError: The following asserts failed:
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
 	at org.example.stepDefs.D06_homeSlidersStepDef.getNokiaPageUrl(D06_homeSlidersStepDef.java:39)
-	at ✽.user navigated to Nokia page successfully(file:///D:/framework/fr/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:7)
+	at ✽.user navigated to Nokia page successfully(file:///D:/crs/la%20poire/nopCommerceAutomation/src/main/resources/features/F06_homeSliders.feature:7)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="F06_homeSliders | users could select Nokia slider once iphone slider once" name="users could select iphone slider" time="16.569">
+    <testcase classname="F06_homeSliders | users could select Nokia slider once iphone slider once" name="users could select iphone slider" time="14.928">
         <failure message="The following asserts failed:&#10;&#9;Test Failed due to an exception occurred in POM's method While assert page url for Iphone page. expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError">
             <![CDATA[When user could select iphone slider........................................passed
 Then user navigated to iphone page successfully.............................failed
@@ -26,7 +26,7 @@ java.lang.AssertionError: The following asserts failed:
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
 	at org.example.stepDefs.D06_homeSlidersStepDef.getIphonePageUrl(D06_homeSlidersStepDef.java:53)
-	at ✽.user navigated to iphone page successfully(file:///D:/framework/fr/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:12)
+	at ✽.user navigated to iphone page successfully(file:///D:/crs/la%20poire/nopCommerceAutomation/src/main/resources/features/F06_homeSliders.feature:12)
 ]]>
         </failure>
     </testcase>

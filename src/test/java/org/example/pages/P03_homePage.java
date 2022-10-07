@@ -264,7 +264,7 @@ public class P03_homePage extends MainPage {
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath( "//body/div[@class='master-wrapper-page']/div[@class='master-wrapper-content']/div[@class='master-column-wrapper']/div[@class='center-1']/div[@class='page home-page']/div[@class='page-body']/div[@class='slider-wrapper theme-custom']/div[@id='nivo-slider']/a[1]")));
 
          //   driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            scrollIntoViewAndClick(nokiaSlider);
+            nokiaSlider.click();
 
         //    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
@@ -395,7 +395,7 @@ public class P03_homePage extends MainPage {
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath( "//body/div[@class='master-wrapper-page']/div[@class='master-wrapper-content']/div[@class='master-column-wrapper']/div[@class='center-1']/div[@class='page home-page']/div[@class='page-body']/div[@class='slider-wrapper theme-custom']/div[@id='nivo-slider']/a[2]")));
 
            // driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            scrollIntoViewAndClick(iphoneSlider);
+            iphoneSlider.click();
 
           //  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 

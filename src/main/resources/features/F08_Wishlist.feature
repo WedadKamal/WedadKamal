@@ -1,4 +1,4 @@
-#@smoke
+@smoke
 Feature: F08_Wishlist | users could select wishlist button ❤ on this product "HTC One M8 Android L 5.0 Lollipop"
   Scenario: user could select wishlist button ❤ on this product "HTC One M8 Android L 5.0 Lollipop"
     When user select wishlist button ❤ on this product "HTC One M8 Android L 5.0 Lollipop"

@@ -1,4 +1,4 @@
-#@smoke
+@smoke
 
 
 Feature: F03_currencies | users could select Euro Currency
